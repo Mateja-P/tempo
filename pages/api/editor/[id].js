@@ -47,7 +47,7 @@ export default function editor(req, res) {
     return e.id == pid;
   });
 
-  res.send(sendData);
+  res.send({ ncie: '1' });
 
   // res.send([
   //   {
