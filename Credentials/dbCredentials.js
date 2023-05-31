@@ -1,6 +1,6 @@
 export const credentials = {
-  host: 'http://buzzmall.a2hosted.com/',
-  user: 'buzzmall_360_first_database',
-  password: 'qJb9iszcWDFyxdx',
-  database: 'buzzmall_360',
+  host: 'bsrvbjmgrkag6cite4im-mysql.services.clever-cloud.com',
+  user: 'u5rmcbstnpqrrutu',
+  password: 'u5rmcbstnpqrrutu',
+  database: 'bsrvbjmgrkag6cite4im',
 };

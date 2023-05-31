@@ -1,1 +1,1 @@
-export const url = 'http://buzzmall.a2hosted.com/api/';
+export const url = 'https://tempo-9nk2uware-mateja-p.vercel.app/api/';
