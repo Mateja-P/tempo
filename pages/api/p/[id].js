@@ -44,7 +44,7 @@ export default function id(req, res) {
   ];
 
   const sendData = arr.filter((e) => {
-    return e.id === id;
+    return e.id == id;
   });
 
   res.send(sendData);
