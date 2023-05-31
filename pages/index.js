@@ -227,9 +227,9 @@ export default function Home() {
           </div>
           <div>
             <Slider ref={popularSliderRef} {...popularSlider}>
-              {/* {data.map((e, index) => {
+              {data.map((e, index) => {
                 return <Card key={index} data={e} />;
-              })} */}
+              })}
             </Slider>
             {/* <div className='flex gap-7 mt-10'>
               <div

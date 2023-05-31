@@ -9,6 +9,7 @@ const db = mysql.createConnection({
 });
 
 export default function landing(req, res) {
+  res.send('Nice');
   const q = 'SELECT * FROM products';
 
   db.query(q, (error, data) => {
