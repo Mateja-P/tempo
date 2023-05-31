@@ -9,9 +9,19 @@ const db = mysql.createConnection({
 });
 
 export default function categories(req, res) {
-  const q = 'SELECT * FROM categories';
+  res.send([
+    {
+      id: 1,
+      category: 'Odeca',
+    },
+    {
+      id: 2,
+      category: 'Solje',
+    },
+  ]);
+  // const q = 'SELECT * FROM categories';
 
-  db.query(q, (error, data) => {
-    return res.json(data);
-  });
+  // db.query(q, (error, data) => {
+  //   return res.json(data);
+  // });
 }
