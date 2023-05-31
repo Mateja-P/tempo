@@ -9,7 +9,7 @@ const db = mysql.createConnection({
 });
 
 export default function editor(req, res) {
-  const { pid } = req.query;
+  const { pid } = req.params;
 
   const arr = [
     {
