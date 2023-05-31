@@ -122,8 +122,6 @@ const DesktopView = ({ meshColor, size, gender }) => {
 
   const model = data[0] && data[0].model;
 
-  console.log(data);
-
   const functionalityModal = (
     <Modal
       isOpen={openFunctionlity}

@@ -24,8 +24,8 @@ export default function editor(req, res) {
       mostPopular: 'true',
       productsImage:
         '{"properties": ["premium1801.png", "premium1802.png", "premium1803.png"]}',
-      properties:
-        '{"properties": [{"sizes": ["S", "M", "L", "XL", "XXL", "3XL"], "gender": {"name": "Muska", "promoId": 50.063}, "meshes": [{"code": {"x": 1, "y": 0, "z": 0}, "color": "crvena", "promoId": 30}, {"code": {"x": 0, "y": 0, "z": 2}, "color": "svetlo plava", "promoId": 23}, {"code": {"x": 0, "y": 0, "z": 0.8}, "color": "tamno plava", "promoId": 23}, {"code": {"x": 1.5, "y": 1.5, "z": 1.5}, "color": "bela", "promoId": 90}, {"code": {"x": 0, "y": 0, "z": 0}, "color": "crna", "promoId": 10}]}, {"sizes": ["S", "M", "L", "XL"], "gender": {"name": "Zenska", "promoId": 50.064}, "meshes": [{"code": {"x": 1, "y": 0, "z": 0}, "color": "crvena", "promoId": 30}, {"code": {"x": 0, "y": 0, "z": 2}, "color": "svetlo plava", "promoId": 23}, {"code": {"x": 0, "y": 0, "z": 0.8}, "color": "tamno plava", "promoId": 23}, {"code": {"x": 1.5, "y": 1.5, "z": 1.5}, "color": "bela", "promoId": 90}, {"code": {"x": 0, "y": 0, "z": 0}, "color": "crna", "promoId": 10}]}]}',
+      faces:
+        '{"properties": [{"faceName": "front"}, {"faceName": "back"}, {"faceName": "leftSleeve"}, {"faceName": "rightSleeve"}]}',
     },
     {
       id: 2,
