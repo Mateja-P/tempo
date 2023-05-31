@@ -52,7 +52,7 @@ const DesktopView = ({ meshColor, size, gender }) => {
     // axios
     //   .get(`http://localhost:8800/editor?pid=${id}`)
     //   .then((res) => setData(res.data));
-    axios.get(`${url}editor/${id}`).then((res) => setData(res.data));
+    axios.get(`${url}editor?pid=${id}`).then((res) => setData(res.data));
   }, []);
 
   const productInfoObject = {
